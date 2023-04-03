@@ -31,7 +31,7 @@ const puppeteer = require('puppeteer');
 
     await page.waitForSelector('[id="configurable_swatch_magework_numeracao"]')
     await page.evaluate(() => {
-        const button = document.querySelector(`[name="${process.env.SIZE}"]`);
+        const button = document.querySelector(`[name="41"]`);
         button.addEventListener('click', () => { });
         button.click();
     });
